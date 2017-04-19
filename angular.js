@@ -40,7 +40,7 @@ const $digestOnce = () => {
     if (curr !== prev) {
       cb(curr, prev);
       watch.prev = curr;
-      changes = true;
+      changed = true;
     }
   });
 
