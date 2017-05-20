@@ -1,0 +1,17 @@
+<html>
+<head>
+  <title>Hello everyone</title>
+</head>
+<body>
+<div>Age is {{ 'title' | translate }}<span ng-bind="age * 2"></span></div>
+<div>Gender is <span ng-bind="gender"></span></div>
+<div ng-show="age < 18">
+  Is a minor!
+</div>
+<div>Age: <input ng-model="age" /></div>
+<div>Age: <input ng-model="age" /></div>
+<div>Gender: <input ng-model="gender" /></div>
+
+<script src="index.js"></script>
+</body>
+</html>
